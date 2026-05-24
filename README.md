@@ -9,7 +9,7 @@ A Java-based event coordination system implementing role-based access control, b
 * **Capacity & State Control:** Automated tracking of maximum capacities. The system handles live registration registers and overflows dynamically.
 * **Search & Sort Engine:** Built-in algorithms allowing users to query scheduled events using full or partial name matches, or exact calendar dates, with sorting capabilities.
 
-## 🛠️ Advanced Technical Architecture
+## Technical Architecture
 
 * **Multithreading Concurrency:** Background thread processing is engineered to manage immediate, automatic waitlist promotions the exact millisecond an active student cancels their spot. This ensures background task simulation without freezing the primary UI execution thread.
 * **Data Structures & Collections:** Employs optimal collections to organize memory. `ArrayLists` manage dynamic event indices and quick linear searches, while `Queues` enforce a strict first-come, first-served (FIFO) strategy for event waitlists.
@@ -19,9 +19,12 @@ A Java-based event coordination system implementing role-based access control, b
 ## Getting Started
 
 ### Prerequisites
-* Java Development Kit (JDK) 8 or higher installed on your system.
+* Java Development Kit installed on your system.
 
 ### Compilation and Execution
 1. Clone the repository to your local machine:
    ```bash
+2. Open your Java Development Kit
+3. Select Open Folder and choose the folder you cloned.
+4. Run the main program which is the CampusEventSystem.java 
    git clone
