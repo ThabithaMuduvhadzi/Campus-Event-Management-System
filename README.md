@@ -24,7 +24,8 @@ A Java-based event coordination system implementing role-based access control, b
 ### Compilation and Execution
 1. Clone the repository to your local machine:
    ```bash
-2. Open your Java Development Kit
-3. Select Open Folder and choose the folder you cloned.
-4. Run the main program which is the CampusEventSystem.java 
+2. Save all the files in one folder
+3. Open your Java Development Kit
+4. Select Open Folder and choose the folder you created with all the files inside
+5. Run the main program which is the CampusEventSystem.java 
    git clone
